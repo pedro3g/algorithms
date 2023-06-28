@@ -18,6 +18,8 @@ const sort = (arr: Array<number | string>) => {
       }
     }
   } while (swapped);
+
+  return arr;
 };
 
 const sorted = sort(numbers);
