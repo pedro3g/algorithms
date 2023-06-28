@@ -1,6 +1,6 @@
 const numbers = [5, 3, 2, 4, 7, 1, 0, 6];
 
-const sort = (arr: number[]) => {
+const sort = (arr: Array<number | string>) => {
   let swapped: boolean;
 
   do {
